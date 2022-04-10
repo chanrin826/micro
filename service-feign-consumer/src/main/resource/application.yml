@@ -1,0 +1,42 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: service-feign-consumer #集群下name相同
+  servlet:
+    multipart:
+      max-file-size: 6011104
+
+
+#集群版本
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}  #ip:port
+  client:
+    register-with-eureka: true   #消费者自己不注册到注册中心
+    service-url:  #设置服务注册中心地址
+      defaultZone: http://admin:705713@localhost:8761/eureka/,http://chanrin:705713@localhost:8762/eureka/
+
+#启用httpclient
+feign:
+  httpclient:
+    enabled: true
+  hystrix:
+    enabled: true
+  #    数据压缩
+  compression:
+    request:
+      enabled: true
+    response:
+      enabled: true
+#全局配置feign日志级别
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: full
+
+

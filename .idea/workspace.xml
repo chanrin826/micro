@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="559c3fec-b934-4d0f-83c6-161fb8910924" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/config/MyFeignIntercepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/config/MyFeignIntercepter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/feign/ProductFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/feign/ProductFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-provider/src/main/java/com/chanrin/micro/service/imp/ProductServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/src/main/java/com/chanrin/micro/service/imp/ProductServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-provider/src/main/resource/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/src/main/resource/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-provider02/src/main/java/com/chanrin/micro/service/imp/ProductServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider02/src/main/java/com/chanrin/micro/service/imp/ProductServiceImp.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server02/target/" />
+    <ignored path="$PROJECT_DIR$/service-provider/target/" />
+    <ignored path="$PROJECT_DIR$/service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/service-provider02/target/" />
+    <ignored path="$PROJECT_DIR$/service-feign-consumer/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-88269185">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="46" />
+          <entry key="java" value="3000" />
+          <entry key="xml" value="276" />
+          <entry key="yml" value="883" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3000" />
+          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="XML" value="276" />
+          <entry key="YAML" value="883" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="aj" value="1" />
+          <entry key="class" value="2" />
+          <entry key="java" value="131" />
+          <entry key="pom" value="8" />
+          <entry key="xml" value="26" />
+          <entry key="yml" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="AspectJ" value="1" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="131" />
+          <entry key="XML" value="34" />
+          <entry key="YAML" value="34" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-132471682">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="210" />
+          <entry key="txt" value="13" />
+          <entry key="yml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="210" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="YAML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="106" />
+          <entry key="xml" value="2" />
+          <entry key="yml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="106" />
+          <entry key="XML" value="2" />
+          <entry key="YAML" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="eurekademo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/package_jar/repo/io/github/openfeign/feign-core/10.10.1/feign-core-10.10.1-sources.jar!/feign/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/ribbon/HttpClientFeignLoadBalancedConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientsRegistrar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/package_jar/repo/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13186">
+              <caret line="759" column="7" selection-start-line="759" selection-start-column="7" selection-end-line="759" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/config/RestTemplateConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/package_jar/repo/org/springframework/boot/spring-boot/2.2.4.RELEASE/spring-boot-2.2.4.RELEASE-sources.jar!/org/springframework/boot/web/client/RestTemplateBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13623">
+              <caret line="769" column="9" selection-start-line="769" selection-start-column="9" selection-end-line="769" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/package_jar/repo/io/github/openfeign/feign-core/10.10.1/feign-core-10.10.1-sources.jar!/feign/Feign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1862">
+              <caret line="129" column="22" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+              <folding>
+                <element signature="e#9231#9232#0" expanded="true" />
+                <element signature="e#9279#9280#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientFactoryBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4332">
+              <caret line="272" column="29" selection-start-line="272" selection-start-column="29" selection-end-line="272" selection-end-column="29" />
+              <folding>
+                <element signature="e#8675#8676#0" expanded="true" />
+                <element signature="e#8725#8726#0" expanded="true" />
+                <element signature="e#11681#11682#0" expanded="true" />
+                <element signature="e#11704#11705#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-context/2.2.5.RELEASE/spring-cloud-context-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/context/named/NamedContextFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="128" column="60" selection-start-line="128" selection-start-column="60" selection-end-line="128" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Aspect" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cloud</find>
+      <find>spring-cloud-connectors.version</find>
+      <find>spring-cloud-dependencis</find>
+      <find>starter</find>
+      <find>spring-cloud-netflix.version</find>
+      <find>SERVICE-PROVIDER</find>
+      <find>request</find>
+      <find>wrapCallable</find>
+      <find>@EnableEurekaServer</find>
+      <find>拦截收到header头内容</find>
+      <find>target</find>
+      <find>getObject()</find>
+      <find>EXEC</find>
+      <find>client</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/eureka-server02/src/main/java/com/chanrin/micro/EurekaServer02Application.java" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/java/com/chanrin/micro/pojo/Product.java" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/java/com/chanrin/micro/service/imp/ProductService.java" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/java/com/chanrin/micro/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/java/com/chanrin/micro/ServiceProviderApplication.java" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/java/com/chanrin/micro/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/chanrin/micro/ServiceConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/chanrin/micro/pojo/Order.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/chanrin/micro/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/chanrin/micro/controller/OrdersController.java" />
+        <option value="$PROJECT_DIR$/service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server02/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server02/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-server02/src/main/java/com/chanrin/micro/config/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-server02/src/main/java/com/chanrin/micro/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/service-provider02/pom.xml" />
+        <option value="$PROJECT_DIR$/service-provider02/src/main/java/com/chanrin/micro/ServiceProvider02Application.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/chanrin/micro/config/LoadBalanceStrategyConfig.java" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/chanrin/micro/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/chanrin/micro/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/chanrin/micro/config/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/chanrin/micro/feign/OrderFeignService.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/feign/OrderFeignService.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/App.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/pojo/Orders.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/interpretor/FegnRequestInterceptor.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/service/imp/OrderServiceImp.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/utils/BASE64DecodedMultipartFile.java" />
+        <option value="$PROJECT_DIR$/service-provider02/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/chanrin/micro/service/imp/OrderServiceImp.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/ServiceFeignConsumer.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/service-provider02/src/main/java/com/chanrin/micro/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/controller/OrdersController.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/config/MyHolder.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/config/RequestAttributeHystrixConcurrencyStrategy.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/java/com/chanrin/micro/service/imp/ProductServiceImp.java" />
+        <option value="$PROJECT_DIR$/service-provider02/src/main/java/com/chanrin/micro/service/imp/ProductServiceImp.java" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/config/MyFeignIntercepter.java" />
+        <option value="$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/feign/ProductFeignService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="F:\package_jar\repo" />
+        <option name="mavenHome" value="F:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-feign-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-feign-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-feign-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-feign-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-feign-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-feign-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-feign-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="imp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="imp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eurekademo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miro_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\miro_pro\service-provider\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chanrin.micro.feign" />
+      <recent name="com.chanrin.micro" />
+      <recent name="com.chanrin.micro.config" />
+      <recent name="com.chanrin.micro.controller" />
+      <recent name="com.chanrin.micro.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\miro_pro\service-feign-consumer\src\main\java\com\chanrin\micro" />
+      <recent name="F:\miro_pro\service-feign-consumer\src\main" />
+      <recent name="F:\miro_pro\service-provider02\src\main" />
+      <recent name="F:\miro_pro\service-consumer\src\main" />
+      <recent name="F:\miro_pro\service-consumer\src\main\java\com\chanrin\micro" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="service-provider02" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="service-provider" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceFeignConsumer">
+    <configuration name="EurekaServer02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chanrin.micro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chanrin.micro.EurekaServer02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chanrin.micro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chanrin.micro.EurekaServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceFeignConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-feign-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chanrin.micro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chanrin.micro.ServiceFeignConsumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceProvider02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-provider02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chanrin.micro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chanrin.micro.ServiceProvider02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chanrin.micro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chanrin.micro.ServiceProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServiceFeignConsumer" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ServiceProviderApplication" />
+      <item itemvalue="Spring Boot.EurekaServer02Application" />
+      <item itemvalue="Spring Boot.ServiceProvider02Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceFeignConsumer" />
+        <item itemvalue="Spring Boot.ServiceProviderApplication" />
+        <item itemvalue="Spring Boot.ServiceProvider02Application" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.EurekaServer02Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="559c3fec-b934-4d0f-83c6-161fb8910924" name="Default Changelist" comment="" />
+      <created>1625931245091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625931245091</updated>
+      <workItem from="1625931247915" duration="1310000" />
+      <workItem from="1625969092099" duration="9074000" />
+      <workItem from="1625990141522" duration="8019000" />
+      <workItem from="1626100618134" duration="3528000" />
+      <workItem from="1626358904068" duration="2783000" />
+      <workItem from="1626690858564" duration="591000" />
+      <workItem from="1627727255627" duration="413000" />
+      <workItem from="1627819926742" duration="37000" />
+      <workItem from="1628353407805" duration="536000" />
+      <workItem from="1628412942371" duration="2010000" />
+      <workItem from="1628419963681" duration="90000" />
+      <workItem from="1632833073612" duration="7816000" />
+      <workItem from="1634306277247" duration="3857000" />
+      <workItem from="1634962223240" duration="1614000" />
+      <workItem from="1635082466300" duration="1142000" />
+      <workItem from="1635255665209" duration="2513000" />
+      <workItem from="1635433000499" duration="17000" />
+      <workItem from="1640519036070" duration="8792000" />
+      <workItem from="1641481066532" duration="390000" />
+      <workItem from="1642166411309" duration="30000" />
+      <workItem from="1645943557137" duration="1026000" />
+      <workItem from="1649158580488" duration="8648000" />
+      <workItem from="1649249843924" duration="2131000" />
+      <workItem from="1649587815378" duration="338000" />
+    </task>
+    <task id="LOCAL-00001" summary="eureka demo">
+      <created>1645943775684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645943775684</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="66705000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73333335" visible="true" weight="0.20309168" />
+      <window_info id="Structure" order="1" sideWeight="0.26522595" side_tool="true" weight="0.1359275" />
+      <window_info id="Web" order="2" sideWeight="0.26666668" side_tool="true" visible="true" weight="0.20309168" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.26522595" side_tool="true" weight="0.13539445" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32814237" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26789588" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3394794" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.40238613" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3275488" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.11727079" />
+      <window_info anchor="right" id="RestServices" order="7" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eureka demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="eureka demo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/controller/OrdersController.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/package_jar/repo/io/github/openfeign/feign-core/10.10.1/feign-core-10.10.1-sources.jar!/feign/SynchronousMethodHandler.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/package_jar/repo/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/client/AbstractLoadBalancerAwareClient.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/service-provider02/src/main/java/com/chanrin/micro/service/imp/ProductServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-provider/src/main/java/com/chanrin/micro/service/imp/ProductServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/support/FeignHttpClientProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/jdk1.8.0_212/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="437" column="11" selection-start-line="437" selection-start-column="11" selection-end-line="437" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/ribbon/OkHttpFeignLoadBalancedConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/EnableFeignClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE-sources.jar!/org/springframework/context/annotation/ImportBeanDefinitionRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/Targeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/DefaultTargeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/HystrixTargeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/io/github/openfeign/feign-hystrix/10.10.1/feign-hystrix-10.10.1-sources.jar!/feign/hystrix/HystrixInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/io/github/openfeign/feign-core/10.10.1/feign-core-10.10.1-sources.jar!/feign/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/io/github/openfeign/feign-core/10.10.1/feign-core-10.10.1-sources.jar!/feign/RequestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="276" selection-start-line="276" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/client/AbstractLoadBalancerAwareClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="907" column="16" selection-start-line="907" selection-start-column="16" selection-end-line="907" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/config/MyFeignIntercepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/feign/ProductFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="165" column="27" selection-start-line="165" selection-start-column="27" selection-end-line="165" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5263">
+          <caret line="322" column="37" selection-start-line="322" selection-start-column="37" selection-end-line="322" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/io/github/openfeign/feign-core/10.10.1/feign-core-10.10.1-sources.jar!/feign/SynchronousMethodHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="178" column="21" lean-forward="true" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/io/github/openfeign/feign-httpclient/10.10.1/feign-httpclient-10.10.1-sources.jar!/feign/httpclient/ApacheHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/loadbalancer/FeignBlockingLoadBalancerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-loadbalancer/2.2.5.RELEASE/spring-cloud-loadbalancer-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/loadbalancer/blocking/client/BlockingLoadBalancerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-commons/2.2.5.RELEASE/spring-cloud-commons-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-commons/2.2.5.RELEASE/spring-cloud-commons-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/ServiceInstanceChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE-sources.jar!/org/springframework/beans/factory/FactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE-sources.jar!/org/springframework/beans/factory/InitializingBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE-sources.jar!/org/springframework/context/ApplicationContextAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="92" column="48" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.5.RELEASE/spring-cloud-netflix-ribbon-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/SpringClientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/ribbon/CachingSpringLoadBalancerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/ribbon/DefaultFeignLoadBalancedConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/ribbon/LoadBalancerFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE-sources.jar!/org/springframework/http/client/support/InterceptingHttpAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE-sources.jar!/org/springframework/web/client/RestOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/io/github/openfeign/feign-core/10.10.1/feign-core-10.10.1-sources.jar!/feign/Capability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/io/github/openfeign/feign-core/10.10.1/feign-core-10.10.1-sources.jar!/feign/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/ribbon/HttpClientFeignLoadBalancedConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientsRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13186">
+          <caret line="759" column="7" selection-start-line="759" selection-start-column="7" selection-end-line="759" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-consumer/src/main/java/com/chanrin/micro/config/RestTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/boot/spring-boot/2.2.4.RELEASE/spring-boot-2.2.4.RELEASE-sources.jar!/org/springframework/boot/web/client/RestTemplateBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13623">
+          <caret line="769" column="9" selection-start-line="769" selection-start-column="9" selection-end-line="769" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/io/github/openfeign/feign-core/10.10.1/feign-core-10.10.1-sources.jar!/feign/Feign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="129" column="22" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+          <folding>
+            <element signature="e#9231#9232#0" expanded="true" />
+            <element signature="e#9279#9280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-openfeign-core/2.2.5.RELEASE/spring-cloud-openfeign-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4332">
+          <caret line="272" column="29" selection-start-line="272" selection-start-column="29" selection-end-line="272" selection-end-column="29" />
+          <folding>
+            <element signature="e#8675#8676#0" expanded="true" />
+            <element signature="e#8725#8726#0" expanded="true" />
+            <element signature="e#11681#11682#0" expanded="true" />
+            <element signature="e#11704#11705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/package_jar/repo/org/springframework/cloud/spring-cloud-context/2.2.5.RELEASE/spring-cloud-context-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/context/named/NamedContextFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="128" column="60" selection-start-line="128" selection-start-column="60" selection-end-line="128" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>service-provider02</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
